@@ -1,4 +1,4 @@
-Custom CLI Script for Uploading files in S3 Bucket
+# Custom CLI Script for Uploading files in S3 Bucket
 
 script can be used to upload files to amazon s3 bucket in the corresponding folder of the extension. For example:
 test.pdf file will be uploaded in pdf/ folder
