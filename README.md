@@ -3,6 +3,8 @@
 script can be used to upload files to amazon s3 bucket in the corresponding folder of the extension. For example:
 test.pdf file will be uploaded in pdf/ folder
 
+---
+
 ### Prerequisities
 
 - python3
@@ -17,6 +19,8 @@ test.pdf file will be uploaded in pdf/ folder
   - six==1.16.0
   - urllib3==1.26.15
 
+---
+
 ### Note
 
 - Script is written in _Python3_
@@ -27,6 +31,8 @@ test.pdf file will be uploaded in pdf/ folder
   `poetry install`
 
 - rename .env.example in auth folder to .env and assign corresponding values to variables
+
+---
 
 Example with poetry:
 `poetry run python main.py -bn YOUR_BUCKET_NAME -f FILENAME1 FILENAME2`
